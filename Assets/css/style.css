@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+:root {
+  --bgColor: #564a4e;
+}
+
+body {
+  background-color: var(--bgColor);
+  font-family: "Roboto", sans-serif;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th,
+.user-Location,
+.hijra-Date,
+.Todays-Date {
+  font-weight: bold;
+  font-size: 2.23rem;
+}
+
+td {
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  /* remove border if needed */
+  border: 1px solid #ddd;
+}
+
+.main-date-header,
+.top-Header,
+.current-Time,
+#currenTime {
+  text-align: center;
+}
+
+.friday-Prayers {
+  padding: 10px 0;
+  position: relative;
+  top: -16px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.friday-Prayers h3 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.top-Header,
+.current-Time,
+#currenTime {
+  color: #fff;
+}
+
+.main-date-header,
+.friday-Prayers {
+  background: #eeebec;
+}
+
+.current-Time {
+  font-weight: bold;
+  font-size: 2rem;
+}
